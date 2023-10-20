@@ -1,0 +1,182 @@
+.title {
+    background: linear-gradient(to right, rgb(228, 14, 49), rgb(13, 42, 227));
+    -webkit-background-clip: text; /* For webkit-based browsers (Safari, Chrome) */
+    background-clip: text;
+    color: transparent; /* Make the text color transparent to show the gradient background */
+    font-size: 75px;
+    font-family: 'SupernaturalKnight', serif;
+    margin-top: 30px;
+}
+
+.inputOutputContainer {
+    margin-top: 25px;
+}
+
+input {
+    caret-color: hotpink;
+}
+
+.inputField {
+    background: linear-gradient(to right, rgb(255, 4, 46), rgb(0, 34, 255));
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent; 
+    font-family: 'Croissant One', cursive;
+    font-size: 18px;
+    font-weight: bold;
+    width: 500px;
+    padding: 10px;
+    margin-right: 25px;
+    border-radius: 7px;
+}
+
+.inputField::placeholder {
+    background: linear-gradient(to right, rgb(255, 4, 46), rgb(0, 34, 255));
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent; 
+    font-family: 'Croissant One', cursive;
+}
+
+.btn {
+    background: linear-gradient(to right, rgb(255, 4, 46), rgb(0, 34, 255));
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent; 
+    font-family: 'Croissant One', cursive;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.avatarImg {
+    width: 300px;
+    height: 300px;
+    display: none;
+    border-radius: 50% !important;
+    cursor: pointer;
+}
+
+.avatarName {
+    background: linear-gradient(to right, rgb(255, 4, 46), rgb(0, 34, 255));
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent; 
+    font-size: 30px;
+    font-family: 'Croissant One', cursive;
+}
+
+.infoContainer {
+    background: linear-gradient(to right, rgb(228, 14, 49), rgb(13, 42, 227));
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    margin-top: 40px;
+    position: relative;
+    text-align: center;
+}
+
+.infoContainer a {
+    text-decoration: none;
+}
+
+.infoContainer h2 {
+    margin-top: 40px;
+}
+
+.fork {
+    font-weight: bolder;
+    width: 18px;
+    height: 18px;
+}
+
+.infoContainer a:hover {
+    text-decoration: underline;
+}
+
+.tempTag {
+    font-size: 60px;
+    font-family: 'SupernaturalKnight', serif;
+    margin: 10px 0 0 0;
+    padding: 5px 0 15px 0;
+    border-radius: 7px;
+    display: none;
+    background: linear-gradient(to right, rgb(255, 4, 46), rgb(0, 34, 255));
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent; 
+}
+
+.repoContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 70px 40px 70px; 
+}
+
+.repoInfo {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    box-shadow: 0 0 27px rgba(0, 0, 0, 0.53);
+    margin: 0 20px 65px 0;
+    padding: 15px;
+    border-radius: 7px;
+}
+
+.repoInfo p{
+    background: linear-gradient(to right, rgb(255, 4, 46), rgb(0, 34, 255));
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent; 
+}
+
+.repoInfo a {
+    text-decoration: none;
+}
+
+.repoInfo a:hover {
+    text-decoration: underline;
+}
+
+.description {
+    font-family: 'Croissant One', cursive;
+    font-weight: bold;
+    margin: 15px 0 15px 0;
+    background: linear-gradient(to right, rgb(255, 4, 46), rgb(0, 34, 255));
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent; 
+}
+
+.repoName {
+    background: linear-gradient(to right, rgb(255, 4, 46), rgb(0, 34, 255));
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent; 
+    align-items: center;
+    font-family: 'Croissant One', cursive;
+}
+
+.repoIcon {
+    width: 20px;
+    height: 18px;
+}
+
+.forkAndStarIconContainer {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.starSpan {
+    margin-left: 10px;
+}
